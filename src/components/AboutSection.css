@@ -1,0 +1,79 @@
+.about-section {
+  background: #232627;
+  color: #fff;
+  padding: 48px 0 32px 0;
+  text-align: center;
+}
+.about-section h2 {
+  color: #C81E28;
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+.about-section p {
+  color: #fff;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.about-section-grid {
+  background: #fff;
+  padding: 48px 0 32px 0;
+  display: flex;
+  justify-content: center;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 32px;
+}
+.about-card {
+  position: relative;
+  width: 260px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+.about-card-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255,255,255,0.65);
+  z-index: 1;
+}
+.about-card-text {
+  position: relative;
+  z-index: 2;
+  color: #232627;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0 12px;
+}
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .about-card {
+    width: 180px;
+    height: 140px;
+  }
+}
+@media (max-width: 600px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+  }
+  .about-card {
+    width: 90vw;
+    height: 100px;
+  }
+} 

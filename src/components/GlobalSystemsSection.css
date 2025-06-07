@@ -1,0 +1,30 @@
+.global-systems-section {
+  background: #fff;
+  padding: 56px 0 32px 0;
+  text-align: center;
+}
+.global-systems-title {
+  color: #C81E28;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.global-systems-desc {
+  color: #232627;
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 0 auto 32px auto;
+  line-height: 1.7;
+}
+.global-systems-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+.global-systems-image {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+} 
