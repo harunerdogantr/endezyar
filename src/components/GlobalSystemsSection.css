@@ -9,6 +9,7 @@
   font-weight: bold;
   margin-bottom: 18px;
   letter-spacing: 1px;
+  text-align: center;
 }
 .global-systems-desc {
   color: #232627;
@@ -16,6 +17,8 @@
   max-width: 900px;
   margin: 0 auto 32px auto;
   line-height: 1.7;
+  text-align: left;
+  padding: 0 30px;
 }
 .global-systems-image-wrapper {
   display: flex;

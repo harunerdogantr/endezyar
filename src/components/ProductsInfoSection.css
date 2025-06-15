@@ -9,6 +9,7 @@
   font-weight: bold;
   margin-bottom: 18px;
   letter-spacing: 1px;
+  text-align: center;
 }
 .products-info-desc {
   color: #232627;
@@ -16,7 +17,8 @@
   max-width: 900px;
   margin: 0 auto 32px auto;
   line-height: 1.7;
-  text-align: center;
+  text-align: left;
+  padding: 0 30px;
 }
 .products-info-subtitle {
   color: #C81E28;
@@ -27,6 +29,7 @@
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 30px;
 }
 .products-info-list {
   color: #232627;
@@ -35,7 +38,7 @@
   margin: 0 auto;
   text-align: left;
   line-height: 1.7;
-  padding-left: 0;
+  padding: 0 30px;
   list-style: none;
 }
 .products-info-list li {

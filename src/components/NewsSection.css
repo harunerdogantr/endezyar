@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 .news-section {
-  background: #272B2C;
+  background: #2a2a2a;
   color: #fff;
   padding: 48px 0 32px 0;
   text-align: center;
@@ -8,34 +10,52 @@
   color: #C81E28;
   margin-bottom: 32px;
   font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
 }
 .news-list {
   display: flex;
   justify-content: center;
   gap: 32px;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 .news-card {
-  background: #232627;
+  background: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   width: 320px;
   padding: 22px 18px 24px 18px;
   text-align: left;
-  transition: box-shadow 0.2s, background 0.2s;
+  transition: all 0.3s ease;
+}
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
 .news-card h3 {
   color: #C81E28;
   margin: 0 0 8px 0;
   font-size: 1.15rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .news-date {
   font-size: 0.95rem;
-  color: #bbb;
-  margin-bottom: 8px;
+  color: #666;
+  margin-bottom: 12px;
   display: block;
+  font-family: 'Poppins', sans-serif;
 }
 .news-card p {
-  color: #fff;
+  color: #333;
   font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
 } 
